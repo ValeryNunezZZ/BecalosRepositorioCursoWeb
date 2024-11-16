@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acordes para piano</title>
 </head>
-<body style="font-family: sans-serif; text-align: justify; padding: 50px; box-sizing: border-box;">
+<body style="font-family: sans-serif; text-align: justify; box-sizing: border-box; font-size: 18px; margin: 0; padding: 0; border: 0;">
     <header class="header">
         <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="header__titulo" >
             <img style="width: 100px; height: 100px;" src="./img/musical-note-symbol-on-transparent-background-free-png.webp" alt="Imagen de nota musical">
             <h1 style="font-size: 50px; color: rgb(5, 49, 144); text-align: left;">Acordes para piano</h1>
         </div>
-        <nav class="header__nav">
-            <ul>
+        <nav class="header__nav" style="display: flex; justify-content: center; margin: 20px 0 0 10px; font-size: 20px;">
+            <ul style="display: flex; flex-direction: row; list-style: none; justify-content: space-arround; gap: 20px;">
                 <li><a href="#queSon">¿Qué son los acordes?</a></li>
                 <li><a href="#tipos">Tipos de acordes</a></li>
                 <li><a href="#inscripcion">Incripción a curso</a></li>
@@ -21,7 +21,7 @@
         </nav>
     </header>
 
-    <main id="queSon" class="inicio">
+    <main id="queSon" class="inicio" style=" padding: 50px;">
         <section id="inicio" class="main__section section__inicio">
             <h2>¿Qué son los acordes?</h2>
             <p>Los acordes en el piano son un conjunto de notas que se tocan al mismo tiempo y que forman una unidad armónica. En general, un acorde está formado por tres o más notas, aunque en la práctica no es necesario tocarlas todas al unísono.</p>
@@ -31,7 +31,7 @@
             <ul>
                 <li><p>Definen el tono de una canción: Los acordes son la estructura armónica básica de la música moderna y establecen la tonalidad de una composición.</p></li>
                 <li><p>Acompañan las melodías: Los acordes proporcionan el soporte armónico y la coloración que acompañan a las melodías.</p></li>
-                <li><p><span style="color: red;">Crean un estado de ánimo: Los acordes contribuyen al sonido y el estado de ánimo generales de una composición musical. Por ejemplo, una progresión de acordes mayores puede transmitir sentimientos de felicidad, mientras que una progresión menor puede transmitir tristeza.</span></p></li>
+                <li><p><span style="color: rgb(0, 115, 106);">Crean un estado de ánimo: Los acordes contribuyen al sonido y el estado de ánimo generales de una composición musical. Por ejemplo, una progresión de acordes mayores puede transmitir sentimientos de felicidad, mientras que una progresión menor puede transmitir tristeza.</span></p></li>
                 <li><p>Son la base para crear melodías: Una progresión de acordes sólida es la base ideal para la construcción de melodías.</p></li>
                 <li><p>Son fundamentales para aprender a tocar un instrumento: Los acordes son la unidad básica de la armonía musical y son fundamentales para aprender a tocar cualquier instrumento.</p></li>
             </ul>
@@ -53,9 +53,9 @@
             <iframe style="width: 100%;" width="560" height="315" src="https://www.youtube.com/embed/C240g6_Dsl4?si=BemJiQvvJKxoLGYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
-        <section id="inscripcion" class="main__section section__inscripcion">
+        <section id="inscripcion" class="main__section section__inscripcion" style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
             <h2>Incríbete a nuestros cursos</h2>
-            <form style="display: flex; flex-direction: column; gap: 10px;" action="#" method="post">
+            <form style=" width: clamp(250px, 50%,500px); display: flex; flex-direction: column; gap: 10px;" action="#" method="post">
                 <label for="nombre">Nombre</label>
                 <input id="nombre" name="nombre" type="text" placeholder="Nombre">
                 
@@ -65,12 +65,12 @@
                 <label for="expectativas">Expectativas de aprendizaje</label>
                 <textarea id="expectativas" name="expectativas" placeholder="Cuentanos tus expectivas de aprendizaje y nosotros te responderemos vía email el curso que más se adapte a tus necesidades."></textarea>
             
-                <input type="submit" value="Enviar">
+                <input style="background-color: black; height: 50px; border-radius: 50px; margin: 20px 0; color: white; font-size: 20px; border: none;" type="submit" value="Enviar">
             </form>
         </section>
     </main>
 
-    <footer id="contacto">
+    <footer id="contacto" style="background-color: black; width: 100%; height: 150px; color: white; padding: 20px; text-align: center;">
         <h3>Síguenos en nuestras redes sociales</h3>
         <a href="https://www.instagram.com/aprender_piano/" target="_blank">Instagram</a>
     </footer>
